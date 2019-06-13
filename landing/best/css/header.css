@@ -1,0 +1,248 @@
+.sect-header .header-top:after,
+.sect-header .header-top:before {
+	display: table;
+
+	content: ' ';
+}
+.sect-header .header-top:after {
+	clear: both;
+}
+.sect-header {
+
+}.sect-header .header-top {
+	height: 104px;
+	padding-top: 35px;
+}
+.sect-header .header-top .logo {
+    font-family: 'PT Sans',sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    display: block;
+    float: left;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 2px;
+    padding-top: 25px;
+    text-decoration: none;
+    color: #fff;
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+}
+.sect-header .header-top .center-block {
+	float: left;
+
+	min-height: 43px;
+	margin-left: 79px;
+	padding-left: 55px;
+
+	background: url(../img/icon-multiplication.png) no-repeat;
+}.sect-header .header-top .center-block .big {
+	font-family: Roboto,sans-serif;
+	font-size: 26px;
+	font-weight: 900;
+	line-height: 1.1;
+
+	text-transform: uppercase;
+
+	color: #fff;
+}.sect-header .header-top .center-block .small {
+	font-family: Roboto,sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+
+	color: #fff;
+}.sect-header .header-top .right-block {
+	float: right;
+
+	margin-top: 2px;
+	margin-right: 2px;
+
+	text-align: right;
+}.sect-header .header-top .right-block .tel {
+	font: 900 26px/1 Roboto,sans-serif;
+
+	display: block;
+
+	text-decoration: none;
+
+	color: #fff;
+}.sect-header .header-top .right-block .button {
+	font: 300 14px Roboto,sans-serif;
+
+	display: inline-block;
+
+	vertical-align: top;
+
+	color: #fff;
+}.sect-header .header-top .right-block .button:hover {
+	text-decoration: none;
+}.sect-header .nav {
+	position: relative;
+
+	overflow: hidden;
+
+	border-radius: 5px;
+	background: #4173d1;
+}.sect-header .nav .menu {
+	font-size: 0;
+}.sect-header .nav .menu li {
+	display: inline-block;
+
+	border-right: 1px #769ade solid;
+	border-bottom: 3px #284680 solid;
+}.sect-header .nav .button,
+.sect-header .nav .menu a {
+	font-family: Roboto,sans-serif;
+	font-weight: 300;
+	line-height: normal;
+
+	display: block;
+
+	text-decoration: none;
+}.sect-header .nav .menu li:active,
+.sect-header .nav .menu li:hover {
+	border-color: #0072b4;
+	background: #00a1ff;
+}.sect-header .nav .menu li:last-of-type {
+	border-right: none;
+}.sect-header .nav .menu a {
+	font-size: 15px;
+
+	padding: 12px 37px;
+
+	color: #fff;
+}
+.sect-header .nav .button {
+
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 209px;
+	height: 100%;
+	padding-right: 10px;
+	text-align: right;
+	padding-top: 4px;
+
+	border-bottom: 3px #9c8000 solid;
+	background: #ffd200 url(icon-tel.gif) 13px 7px no-repeat;
+}
+
+.sect-header .nav .button .tel {
+	color: #0f0a02;
+	font-family: Roboto, sans-serif;
+	font-size: 21px;
+	line-height: 1;
+	font-weight: 700;
+}
+
+.sect-header .nav .button .small-text {
+	opacity: .68;
+	color: black;
+	font-family: Roboto, sans-serif;
+	font-size: 12px;
+	line-height: 1;
+	font-weight: 400;
+
+}
+
+
+.sect-header .mobile-tel {
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	font-size: 21px;
+	line-height: 1;
+	font-weight: 700;
+	text-align: center;
+	display: none;
+	text-decoration: none;
+}
+
+
+
+.sect-header.header-scrolled .header-top {
+	display: none;
+}
+.sect-header.header-scrolled {
+	position: fixed;
+	padding: 5px 0 0;
+	background: 0 0;
+}
+
+.sect-header .nav .menu a {
+font-weight: 500;padding: 12px 35px;
+}
+.sect-header .nav .menu span {
+font-size: 15px;
+color: #fff;
+text-decoration: none;
+padding: 12px 34px;
+line-height: normal;
+font-family: "Roboto", sans-serif;
+display: block;
+font-weight: 500;
+}
+.sect-header .nav .menu .active-li {
+border-bottom: 3px #0072b4 solid;
+background: #00a1ff;
+}
+.sect-header .nav .menu .active-li a {
+cursor: default;
+}
+
+.b-brif {
+	background:  url(../img/brif.png) 0 center no-repeat;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	padding-left: 54px;
+	padding-right: 9px;
+	height: 49px;
+}
+
+.b-brif:hover {
+	opacity: .8;
+}
+
+.b-brif__big-text {
+	color: white;
+	font-family: Roboto, sans-serif;
+	font-size: 24.86px;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 1;
+}
+
+.b-brif__download {
+	color: white;
+	font-family: Roboto, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	padding-bottom: 2px;
+	border-bottom: 1px rgba(255, 255, 255, .5) dashed;
+}
+ .sect-header .nav .button{position:absolute;top:0;right:0;width:209px;height:100%;padding-right:10px;text-align:right;padding-top:4px;
+border-bottom:3px #9c8000 solid;background:#ffd200;}
+.sect-header .nav .button .tel{color:#0f0a02;font-family:Roboto, sans-serif;font-size:15px;line-height:35px;text-align:center; font-weight:500;}
+.sect-header .nav .button .small-text{opacity:.68;color:black;font-family:Roboto, sans-serif;font-size:12px;line-height:1;font-weight:400;}
+
+
+
+
+
+
+
+
+
+@media (max-width:1024px){
+
+.sect-header .header-top {
+    text-align: center;
+}
+.sect-header .header-top .logo {
+    display: inline-block;
+    float: none;
+}
+
+
+}
