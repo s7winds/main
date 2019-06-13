@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.swinds\.ru$ [NC]
+RewriteRule ^(.*)$ http://swinds.ru/$1 [R=301,L]
+
+ErrorDocument 404 http://www.swinds.ru/error.html
+</IfModule>
