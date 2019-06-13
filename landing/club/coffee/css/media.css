@@ -1,0 +1,743 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .sect6 .bot-box h4 {
+    font-size: 21px;
+  }
+  header .left-p {
+    width: 283px;
+  }
+  header nav {
+    display: none;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .sect1 {
+    background: url(../img/section1-bg.jpg) center no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+  }
+  .sect1 h1 {
+    font-size: 48px;
+    padding: 7px 22px;
+  }
+  .sect1 h2 {
+    font-size: 30px;
+    padding: 3px 15px;
+  }
+  .sect1 input {
+    width: 190px;
+  }
+  .sect1 form {
+    margin-top: 70px;
+  }
+  .sect2 .box .popup-text {
+    top: 20%;
+  }
+  .sect4 .blue-button {
+    margin-top: 40px;
+  }
+  .sect5 h2 {
+    font-size: 36px;
+    display: inline;
+    line-height: 122%;
+    margin-bottom: 70px;
+  }
+  .sect5 .box {
+    column-gap: 30px;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+  }
+  .sect6 h2 {
+    font-size: 48px;
+  }
+  .sect6 .bot-box h3 {
+    font-size: 23px;
+  }
+  .sect6 .bot-box h4 {
+    font-size: 17px;
+  }
+  .sect6 .bot-box p {
+    font-size: 14px;
+  }
+  .sect6 .main-descr {
+    margin-bottom: 60px;
+  }
+  .sect7 .box.no-str::after {
+    display: block;
+  }
+  .sect7 .box.no-str-sm::after {
+    display: none;
+  }
+  .sect7 .box-fran {
+    text-align: center;
+  }
+  .sect7 .blue-button {
+    margin-top: 40px;
+  }
+  .sect8 .main-descr {
+    display: inline-block;
+    max-width: 800px;
+  }
+  .sect9 h2 {
+    margin-bottom: 30px;
+  }
+  .sect9 .box {
+    margin: 20px 0;
+  }
+  .sect9 .blue-button {
+    margin-top: 20px;
+  }
+  .sect10 p {
+    margin: 5px;
+  }
+  .sect10 form {
+    margin-top: 90px;
+  }
+  .sect10 input {
+    width: 190px;
+  }
+  .sect10 form {
+    margin-top: 70px;
+  }
+  /*header{
+		padding-bottom: 0;
+		.right-p{
+			width: 210px;
+
+			text-align: right;
+			.tel{
+
+
+				display: inline-block;
+			}
+			.zakaz{
+				display: inline-block;
+				line-height: 100%;
+				padding-bottom: 1px;
+				margin-right: 5px;
+			}
+		}
+		nav{
+			top: 150px;
+		}
+
+	}
+	*/
+  .modal-zakaz {
+    width: 700px;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  /*header{
+		padding: 20px 0 18px;
+		.left-p{
+			width: 160px;
+
+
+
+			.logo{
+				width: 50px;
+				height: 50px;
+				background-size: cover;
+				margin-bottom: 0;
+			}
+			.title{
+				padding-top: 15px;
+				width: auto;
+				h2{
+					font-size: 18px;
+				}
+				p{
+					display: none;
+				}
+			}
+			.pirog{
+				margin: 0 10px 18px;
+				margin-left: 0;
+			}
+		}
+
+		.right-p{
+			width: 135px;
+			padding-top: 4px;
+
+			.tel{
+				font-size: 16px;
+				display: inline-block;
+			}
+			.zakaz{
+				display: inline-block;
+				line-height: 100%;
+				padding-bottom: 1px;
+				margin-right: 5px;
+			}
+		}
+		nav{
+			top: 94px;
+		}
+
+		}*/
+  .sect1 h1 {
+    font-size: 20px;
+    padding: 5px;
+  }
+  .sect1 h2 {
+    padding: 4px;
+    font-size: 18px;
+  }
+  .sect1 p {
+    padding: 0px 7px;
+    font-size: 18px;
+  }
+  .sect1 form {
+    margin-top: 30px;
+  }
+  .sect1 input {
+    display: block;
+    margin: 5px auto;
+  }
+  .sect1 input[type="submit"] {
+    display: inline-block;
+  }
+  .sect2 h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .sect2 .sub-title {
+    font-size: 14px;
+    margin-bottom: 45px;
+  }
+  .sect2 .box .popup-text {
+    top: 32%;
+  }
+  .sect3 .box {
+    padding: 5px 25px;
+  }
+  .sect3 .box img {
+    height: 85px;
+    margin: 20px;
+  }
+  .sect3 .box p {
+    margin: 0px;
+  }
+  .sect3 h2 {
+    display: inline-block;
+    font-size: 28px;
+    line-height: 137%;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  .sect4 h2 {
+    font-size: 28px;
+  }
+  .sect4 .main-descr {
+    font-size: 14px;
+    padding: 0 5px;
+    margin: 10px 0;
+  }
+  .sect4 .box {
+    font-size: 14px;
+    padding: 7px;
+  }
+  .sect4 .box img {
+    margin: 20px;
+  }
+  .sect5 h2 {
+    font-size: 24px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+  }
+  .sect5 .box {
+    column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+  }
+  .sect5 .bottom-box {
+    padding: 5px;
+    margin: 18px 10px 10px;
+  }
+  .sect5 .bottom-box h3 {
+    font-size: 16px;
+    display: inline-block;
+    float: none;
+  }
+  .sect5 .blue-button {
+    float: none;
+  }
+  .sect6 h2 {
+    font-size: 24px;
+    padding: 0 25px;
+  }
+  .sect6 .main-descr {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .sect6 .c-box .row {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .sect6 .bot-box {
+    text-align: center !important;
+  }
+  .sect6 .bot-box p {
+    margin: 0;
+  }
+  .sect6 .row2 {
+    margin-bottom: 20px;
+  }
+  .sect6 .row-l {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .sect6 .row-l .bot-box {
+    margin: 15px;
+  }
+  .sect6 .row-ll .bot-box {
+    line-height: 175%;
+  }
+  .sect7 h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .sect7 .box {
+    font-size: 16px;
+    margin: 10px 0 30px;
+  }
+  .sect7 .box img {
+    margin: 2px;
+  }
+  .sect7 .box::after {
+    display: none !important;
+  }
+  .sect8 h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  .sect8 .main-descr {
+    font-size: 14px;
+    margin: 10px;
+  }
+  .sect8 .bottom-text {
+    font-size: 18px;
+  }
+  .sect9 h2 {
+    font-size: 24px;
+  }
+  .sect9 .box {
+    font-size: 16px;
+    margin: 15px;
+  }
+  .sect9 .box img {
+    height: 100px;
+    margin: 0px;
+  }
+  .sect9 .box p {
+    margin: 10px;
+  }
+  .sect9 .blue-button {
+    margin-top: 50px;
+    width: 200px;
+  }
+  .sect10 h2 {
+    padding: 4px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .sect10 p {
+    padding: 0px 7px;
+    font-size: 14px;
+  }
+  .sect10 form {
+    margin-top: 45px;
+  }
+  .sect10 input {
+    display: block;
+    margin: 5px auto;
+  }
+  .sect10 input[type="submit"] {
+    margin-top: 5px;
+    display: inline-block;
+  }
+  .modal-zakaz {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  footer {
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 40px;
+  }
+  footer .l-part {
+    float: none;
+    display: inline-block;
+    margin-bottom: 18px;
+  }
+  footer .r-part {
+    float: none;
+    width: 245px;
+    margin: 0 auto;
+    line-height: 100%;
+  }
+  footer .r-part p {
+    width: 120px;
+    padding-top: 5px;
+  }
+  footer .r-part img {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 530px) {
+  header .left-p {
+    height: 80px;
+    width: 184px;
+  }
+  header .left-p .title {
+    padding-top: 21px;
+    width: 125px;
+  }
+  header .left-p .title h2 {
+    font-size: 24px;
+  }
+  header .left-p .title p {
+    font-size: 12px;
+  }
+  header .left-p .pirog {
+    margin-top: 28px;
+    margin-bottom: 15px;
+    margin-left: -25px;
+    margin-right: 0;
+  }
+  header .left-p .logo {
+    margin: 15px 0;
+    width: 50px;
+    height: 50px;
+  }
+  header .right-p {
+    padding-top: 21px;
+    width: 145px;
+  }
+  header .right-p .tel {
+    font-size: 18px;
+  }
+  .modal-zakaz {
+    width: 400px;
+  }
+  .sect2 h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .sect2 .sub-title {
+    font-size: 14px;
+    margin-bottom: 45px;
+  }
+  .sect2 .box .popup-text {
+    top: 22%;
+  }
+}
+@media only screen and (max-width: 370px) {
+  header .left-p {
+    height: 80px;
+    width: 132px;
+  }
+  header .left-p .title {
+    padding-top: 29px;
+    width: 80px;
+  }
+  header .left-p .title h2 {
+    font-size: 21px;
+  }
+  header .left-p .title p {
+    display: none;
+  }
+  header .left-p .pirog {
+    margin-top: 28px;
+    margin-bottom: 15px;
+    margin-left: -27px;
+    margin-right: 0;
+  }
+  header .left-p .logo {
+    margin: 18px 0;
+    width: 44px;
+    height: 44px;
+  }
+  header .right-p {
+    padding-top: 23px;
+    width: 130px;
+  }
+  header .right-p .tel {
+    font-size: 16px;
+  }
+  header .right-p .zakaz {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .modal-zakaz {
+    width: 280px;
+    padding: 20px 3px 10px;
+  }
+  .modal-zakaz form {
+    margin-top: 10px;
+  }
+  .modal-zakaz h2 {
+    font-size: 30px;
+  }
+  .fancybox-close {
+    top: 5px;
+    right: 5px;
+  }
+  .popup-uspeh {
+    padding: 60px 15px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 400px) {
+  /*header{
+		.left-p{
+
+			width: 148px;
+			position: relative;
+			left: -20px;
+			.pirog{
+				margin-right: 5px;
+			}
+			.title{
+				padding-left: 0;
+				font-size: 15px;
+			}
+		}
+		.right-p{
+			font-size: 15px;
+			width: 133px;
+		}
+		}*/
+  .sect2 .box .main-content {
+    padding: 40px 9px;
+  }
+  .sect2 .box .main-content img {
+    margin: 0 10px;
+  }
+  .sect2 .box .main-content h3 {
+    font-size: 26px;
+  }
+  .sect2 .box .popup-text {
+    line-height: 120%;
+    top: 19%;
+    padding: 0 25px;
+  }
+  .sect5 h2 {
+    margin-bottom: 15px;
+  }
+  .sect5 .box li {
+    line-height: 150%;
+  }
+  .sect5 .bottom-box {
+    margin-top: 0;
+  }
+  .sect5 .bottom-box h3 {
+    padding: 12px;
+  }
+  .sect6 .c-box {
+    line-height: 90%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .carousel img {
+    width: 300px;
+  }
+}
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .popup-uspeh {
+    width: 880px;
+  }
+}
+/* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens */
+@media only screen and (min-height: 600px) and (min-width: 1024px) {
+  .sect1 {
+    padding: 170px 0;
+  }
+  .sect2 h2 {
+    font-size: 40px;
+  }
+  .sect2 .sub-title {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .sect3 h2 {
+    margin-bottom: 20px;
+  }
+  .sect3 .blue-button {
+    margin-top: 0px;
+  }
+  .sect5 h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .sect5 .bottom-box {
+    margin-top: 20px;
+  }
+  .sect6 h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  .sect6 .main-descr {
+    margin-bottom: 0px;
+  }
+  .sect6 .row2 {
+    margin-bottom: 10px;
+  }
+  .sect6 .bot-box p {
+    margin: 10px 0;
+  }
+  .sect7 h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  .sect9 h2 {
+    margin-bottom: 50px;
+  }
+  .sect9 .blue-button {
+    margin-top: 35px;
+  }
+}
+@media only screen and (min-height: 660px) and (min-width: 1024px) {
+  /*header{
+		padding: 5px 0;
+		}*/
+  .sect1 {
+    padding: 190px 0;
+  }
+  /*	.sect2{
+			padding: 130px 0;
+		}
+		.sect3{
+			padding: 160px 0;
+		}
+		.sect4{
+			padding: 160px 0;
+		}
+		.sect5{
+			padding: 160px 0;
+		}
+		.sect6{
+			padding: 135px 0;
+		}
+		.sect7{
+			padding: 150px 0;
+		}
+		.sect8{
+			padding: 110px 0;
+		}
+		.sect9{
+			padding: 180px 0;
+		}
+		.sect10{
+			padding: 200px 0;
+		}*/
+}
+@media only screen and (min-height: 730px) and (min-width: 1024px) {
+  /*	header{
+		padding: 5px 0;
+		}*/
+  .sect1 {
+    padding: 275px 0;
+  }
+  .sect2 h2 {
+    font-size: 60px;
+  }
+  .sect2 .sub-title {
+    font-size: 18px;
+    margin: 5px 0 30px;
+  }
+  .sect3 h2 {
+    margin: 0 0 40px;
+  }
+  .sect3 .blue-button {
+    margin: 20px;
+  }
+  .sect5 h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  .sect5 .bottom-box {
+    margin-top: 70px;
+  }
+  .sect6 h2 {
+    font-size: 60px;
+    margin-bottom: 5px;
+  }
+  .sect6 .main-descr {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .sect6 .row2 {
+    margin-bottom: 50px;
+  }
+  .sect6 .bot-box p {
+    margin: 50px 0;
+  }
+  .sect7 h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  .sect9 h2 {
+    margin-bottom: 100px;
+  }
+  .sect9 .blue-button {
+    margin: 60px 20px 10px;
+  }
+}
+@media only screen and (min-height: 880px) and (min-width: 1100px) {
+  /*header{
+		padding: 5px 0;
+		}*/
+  .sect1 {
+    padding: 315px 0;
+  }
+  .sect2 h2 {
+    font-size: 60px;
+  }
+  .sect2 .sub-title {
+    font-size: 18px;
+  }
+  .sect6 h2 {
+    font-size: 60px;
+  }
+  .sect6 .main-descr {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-height: 990px) and (min-width: 1200px) {
+  /*header{
+		padding: 5px 0;
+		}*/
+  .sect1 {
+    padding: 455px 0;
+  }
+  .sect2 h2 {
+    font-size: 60px;
+  }
+  .sect2 .sub-title {
+    font-size: 18px;
+  }
+  .sect6 h2 {
+    font-size: 60px;
+  }
+  .sect6 .main-descr {
+    font-size: 18px;
+  }
+}

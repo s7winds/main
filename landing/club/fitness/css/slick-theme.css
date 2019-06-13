@@ -1,0 +1,72 @@
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url('../img/ajax-loader.gif') center center no-repeat;
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 23px;
+    height: 68px;
+    padding: 0;
+
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: transparent;
+    margin-top: -34px;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    opacity: 1;
+    outline: none;
+}
+.slick-prev.slick-disabled,
+.slick-next.slick-disabled
+{
+    opacity: .25;
+}
+
+.slick-prev,
+.slick-next
+{
+
+    opacity: .75;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev{
+    background: url(../img/reviews/prev-btn.html) no-repeat top center;
+    left: -40px;
+}
+
+.slick-next{
+    background: url(../img/reviews/next-btn.html) no-repeat top center;
+    right: -40px;
+}
+
+@media (max-width: 991px){
+    .slick-prev{
+        left: -25px;
+    }
+
+    .slick-next{
+        right: -25px;
+    }
+}
