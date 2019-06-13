@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ru" class="">
+
+<!-- Mirrored from webunicom.ru/portfolio/gadget/apple/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Jul 2018 16:55:05 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+	<meta name="description" content="      Портфолио сайтов и Landing Page ">
+	<title> Портфолио сайтов и Landing Page  </title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+    <script style="" src="watch.js" async="" type="text/javascript"></script><script src="js.html"></script>
+    <script type="text/javascript">
+        var map;
+        var chicago = new google.maps.LatLng(55.74299999999999, 37.55969600000003);
+
+        function initialize() {
+
+            var roadAtlasStyles = [{"featureType": "road.highway", "elementType": "geometry", "stylers": [{ "saturation": -100 }, { "lightness": -8 }, { "gamma": 1.18 } ] }, {"featureType": "road.arterial", "elementType": "geometry", "stylers": [{ "saturation": -100 }, { "gamma": 1 }, { "lightness": -24 } ] }, {"featureType": "poi", "elementType": "geometry", "stylers": [{ "saturation": -100 } ] }, {"featureType": "administrative", "stylers": [{ "saturation": -100 } ] }, {"featureType": "transit", "stylers": [{ "saturation": -100 } ] }, {"featureType": "water", "elementType": "geometry.fill", "stylers": [{ "saturation": -100 } ] }, {"featureType": "road", "stylers": [{ "saturation": -100 } ] }, {"featureType": "administrative", "stylers": [{ "saturation": -100 } ] }, {"featureType": "landscape", "stylers": [{ "saturation": -100 } ] }, {"featureType": "poi", "stylers": [{ "saturation": -100 } ] }, {} ]
+
+            var mapOptions = {
+                zoom: 16,
+                center: chicago,
+                scrollwheel: false,
+                mapTypeControlOptions: {
+                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'usroadatlas']
+                },
+                panControl: true,
+                panControlOptions: {
+                    position: google.maps.ControlPosition.LEFT_BOTTOM
+                },
+                zoomControl: true,
+                zoomControlOptions: {
+                    style: google.maps.ZoomControlStyle.LARGE,
+                    position: google.maps.ControlPosition.LEFT_BOTTOM
+                },
+                scaleControl: true,
+                scaleControlOptions: {
+                    position: google.maps.ControlPosition.LEFT_BOTTOM
+                },
+                streetViewControl: true,
+                streetViewControlOptions: {
+                    position: google.maps.ControlPosition.LEFT_BOTTOM
+                }
+            };
+
+            map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+            var marker1 = new google.maps.LatLng(55.74299999999999, 37.55969600000003);
+            var image = '../../../../apple.rentomania.ru/apple/img/location.png';
+            var beachMarker = new google.maps.Marker({
+                position: marker1,
+                map: map,
+                icon: image
+            });
+
+            var styledMapOptions = {};
+            var usRoadMapType = new google.maps.StyledMapType(roadAtlasStyles, styledMapOptions);
+            map.mapTypes.set('usroadatlas', usRoadMapType);
+            map.setMapTypeId('usroadatlas');
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+<script src="common.js" charset="UTF-8" type="text/javascript"></script><script src="map.js" charset="UTF-8" type="text/javascript"></script><script src="util.js" charset="UTF-8" type="text/javascript"></script><script src="marker.js" charset="UTF-8" type="text/javascript"></script><script type="text/javascript" src="scripts.js"></script><script src="onion.js" charset="UTF-8" type="text/javascript"></script><script src="stats.js" charset="UTF-8" type="text/javascript"></script><script src="controls.js" charset="UTF-8" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head>
+<body>
+        <!--baginning menu-->
+        <div class="menu">
+            <div class="menu__indoor clearfix">
+                <img src="logo.png" alt="" class="menu__indoor__logo">
+                <div class="clearfix">
+                    <p class="menu__indoor__tel">8 (495) 984-34-58</p>
+                    <div class="menu__indoor__button" onclick="popup('callback','|Заказать звонок','Заказать звонок','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать звонок');">Заказать звонок</div>
+                </div>
+            </div>
+        </div>
+        <!--end menu-->
+        <!--baginning header-->
+        <div class="header">
+            <div class="header__indoor">
+                <div class="header__indoor__content">
+                    <p class="header__indoor__content__title">Аренда<br>техники Apple</p>
+                    <div class="for-bg clearfix">
+                        <p class="header__indoor__content__info">Скидка 10% на первый заказ</p>
+                        <div class="general-button" onclick="popup('callback','|Скидка','Скидка','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Получить скидку');">Получить скидку</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="header__bottom">
+                <ul class="header__bottom__indoor">
+                    <li>
+                        <div class="header__bottom__indoor__content clearfix">
+                            <p>Бесплатная доставка<br>по Москве</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="header__bottom__indoor__content clearfix">
+                            <p>Предоставляем в аренду<br>от 1 до 40 устройств</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="header__bottom__indoor__content clearfix">
+                            <p>Предварительная настройка<br>и загрузка нужного ПО</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="header__bottom__indoor__content clearfix">
+                            <p>Установка<br>антикражных устройств</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--end header-->
+
+        <!-- equipment-apple -->
+        <div class="equipment-apple">
+            <div class="equipment-apple__title main-title">Техника Apple</div>
+            <div class="equipment-apple__description">создана для работы, творчества,развлечений  и отдыха.<br>Чтобы вы не знали,вы почувствуете разницу с быстрым и удобным Mac</div>
+            <div class="equipment-apple__body">
+                <div class="clearfix">
+                    <div class="equipment-apple-block qab-1">
+                        <p>Простой и интуитивно<br>понятный интерьфейс</p>
+                    </div>
+                    <div class="equipment-apple-block qab-2">
+                        <p>Мощная и<br>производительная система</p>
+                    </div>
+                    <div class="equipment-apple-block qab-3">
+                        <p>Премиальный вид<br>и комфорт при работе</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- / equipment-apple -->
+
+        <!-- catalog-apple -->
+        <div class="catalog-apple">
+            <div class="catalog-apple__title main-title">Стоимость аренды</div>
+            <div class="side-title">Ноутбуки</div>
+            <div class="catalog-apple__notebook">
+                <div class="clearfix">
+                    <div class="apple">
+                        <div class="apple__title">Apple MacBook Air13</div>
+                        <div class="apple__img"><img src="a1.jpg" alt=""></div>
+                        <div class="apple__btn">
+                            <div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Подробнее</div>
+                        </div>
+                        <div class="apple__price">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>1 день</th>
+                                        <th>4 дня</th>
+                                        <th>14 дней</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1500р</td>
+                                        <td>7500р</td>
+                                        <td>11500р</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="apple__order"><div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Заказать</div></div>
+                    </div>
+                    <div class="apple">
+                        <div class="apple__title">Apple MacBook Pro 13</div>
+                        <div class="apple__img"><img src="a2.jpg" alt=""></div>
+                        <div class="apple__btn">
+                            <div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Подробнее</div>
+                        </div>
+                        <div class="apple__price">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>1 день</th>
+                                        <th>4 дня</th>
+                                        <th>14 дней</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1000р</td>
+                                        <td>5000р</td>
+                                        <td>7500р</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="apple__order"><div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Заказать</div></div>
+                    </div>
+                    <div class="apple">
+                        <div class="apple__title">Apple MacBook Pro 13<br>Retina display</div>
+                        <div class="apple__img"><img src="a3.jpg" alt=""></div>
+                        <div class="apple__btn">
+                            <div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Подробнее</div>
+                        </div>
+                        <div class="apple__price">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>1 день</th>
+                                        <th>4 дня</th>
+                                        <th>14 дней</th>
+                                    </tr>
+                                    <tr>
+                                        <td>2000р</td>
+                                        <td>10000р</td>
+                                        <td>15400р</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="apple__order"><div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Заказать</div></div>
+                    </div>
+                    <div class="apple">
+                        <div class="apple__title">Apple MacBook Air11</div>
+                        <div class="apple__img"><img src="a4.jpg" alt=""></div>
+                        <div class="apple__btn">
+                            <div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Подробнее</div>
+                        </div>
+                        <div class="apple__price">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>1 день</th>
+                                        <th>4 дня</th>
+                                        <th>14 дней</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1000р</td>
+                                        <td>5000р</td>
+                                        <td>7500р</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="apple__order"><div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Заказать</div></div>
+                    </div>
+                    <div class="apple">
+                        <div class="apple__title">Apple MacBook Pro 15</div>
+                        <div class="apple__img"><img src="a5.jpg" alt=""></div>
+                        <div class="apple__btn">
+                            <div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Подробнее</div>
+                        </div>
+                        <div class="apple__price">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>1 день</th>
+                                        <th>4 дня</th>
+                                        <th>14 дней</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1500р</td>
+                                        <td>7500р</td>
+                                        <td>11500р</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="apple__order"><div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Заказать</div></div>
+                    </div>
+                    <div class="apple">
+                        <div class="apple__title">Apple MacBook Pro 15<br>Retina display</div>
+                        <div class="apple__img"><img src="a6.jpg" alt=""></div>
+                        <div class="apple__btn">
+                            <div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Подробнее</div>
+                        </div>
+                        <div class="apple__price">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>1 день</th>
+                                        <th>4 дня</th>
+                                        <th>14 дней</th>
+                                    </tr>
+                                    <tr>
+                                        <td>3000р</td>
+                                        <td>15000р</td>
+                                        <td>22100р</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="apple__order"><div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Заказать</div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="side-title">Компьютеры</div>
+            <div class="catalog-apple__comp clearfix">
+                <div class="catalog-apple__comp__left">
+                    <div class="gift">
+                        <div class="gift__title">Подарок</div>
+                        <div class="gift__description">за аренду iMac или MacBook</div>
+                        <div class="gift-one g1">
+                            <p>Стильная флешка</p>
+                            <p><span>от 50 000р</span></p>
+                        </div>
+                        <div class="gift-one g2">
+                            <p>Наушник Beats</p>
+                            <p><span>от 250 000р</span></p>
+                        </div>
+                        <div class="gift-one g3">
+                            <p>Фитнес браслет</p>
+                            <p><span>от 100 000р</span></p>
+                        </div>
+                        <div class="gift-one g4">
+                            <p>Apple watch</p>
+                            <p><span>от 500 000р</span></p>
+                        </div>
+                        <div class="gift__order">
+                            <div class="general-button" onclick="popup('callback','|Заказать','Заказать','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Получить подарок');">Заказать</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-apple__comp__right">
+                    <div class="clearfix">
+                        <div class="apple">
+                            <div class="apple__title">iMac 21” толстый</div>
+                            <div class="apple__img"><img src="a7.jpg" class="img_a7" alt=""></div>
+                            <div class="apple__btn">
+                                <div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Подробнее</div>
+                            </div>
+                            <div class="apple__price">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>1 день</th>
+                                            <th>4 дня</th>
+                                            <th>14 дней</th>
+                                        </tr>
+                                        <tr>
+                                            <td>2000р</td>
+                                            <td>10000р</td>
+                                            <td>15400р</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="apple__order"><div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Заказать</div></div>
+                        </div>
+                        <div class="apple">
+                            <div class="apple__title">iMac 27” толстый</div>
+                            <div class="apple__img"><img src="a8.jpg" class="img_a8" alt=""></div>
+                            <div class="apple__btn">
+                                <div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Подробнее</div>
+                            </div>
+                            <div class="apple__price">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>1 день</th>
+                                            <th>4 дня</th>
+                                            <th>14 дней</th>
+                                        </tr>
+                                        <tr>
+                                            <td>3000р</td>
+                                            <td>15000р</td>
+                                            <td>23100р</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="apple__order"><div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Заказать</div></div>
+                        </div>
+                        <div class="apple">
+                            <div class="apple__title">iMac 21” тонкий</div>
+                            <div class="apple__img"><img src="a9.jpg" class="img_a9" alt=""></div>
+                            <div class="apple__btn">
+                                <div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Подробнее</div>
+                            </div>
+                            <div class="apple__price">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>1 день</th>
+                                            <th>4 дня</th>
+                                            <th>14 дней</th>
+                                        </tr>
+                                        <tr>
+                                            <td>3000р</td>
+                                            <td>15000р</td>
+                                            <td>23100р</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="apple__order"><div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Заказать</div></div>
+                        </div>
+                        <div class="apple">
+                            <div class="apple__title">iMac 27” тонкий</div>
+                            <div class="apple__img"><img src="a10.jpg" class="img_a10" alt=""></div>
+                            <div class="apple__btn">
+                                <div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Подробнее</div>
+                            </div>
+                            <div class="apple__price">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>1 день</th>
+                                            <th>4 дня</th>
+                                            <th>14 дней</th>
+                                        </tr>
+                                        <tr>
+                                            <td>4000р</td>
+                                            <td>20000р</td>
+                                            <td>30800р</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="apple__order"><div class="general-button" onclick="popup('callback','|Заказать Apple','Заказать Apple','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать Apple');">Заказать</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- / catalog-apple -->
+
+        <!--beginning clients-->
+        <div class="clients">
+            <div class="clients__indoor">
+                <p class="clients__indoor__title">Участвуйте<br>в программе лояльности</p>
+                <p class="clients__indoor__info">для корпоративных клиентов</p>
+                <ul class="clients__indoor__list">
+                    <li>
+                        <p class="clients__indoor__list__subtitle">Бронзовый партнёр</p>
+                        <p class="clients__indoor__list__title">10%</p>
+                    </li>
+                    <li>
+                        <p class="clients__indoor__list__subtitle">Серебряный партнёр</p>
+                        <p class="clients__indoor__list__title">15%</p>
+                    </li>
+                    <li>
+                        <p class="clients__indoor__list__subtitle">Золотой партнёр</p>
+                        <p class="clients__indoor__list__title">20%</p>
+                    </li>
+                </ul>
+                <div class="general-button" onclick="popup('callback','|Участвовать в програме лояльности','Программа лояльности','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Участвовать');">Получить скидку</div>
+            </div>
+        </div>
+        <!--end clients-->
+
+        <!--beginning rent-->
+        <div class="rent">
+            <p class="rent__indoor__title">Аренда – это выгодно</p>
+            <div class="rent__indoor--bg clearfix">
+                <div class="clearfix">
+                    <div class="rent-block r1">
+                        <table>
+                            <tbody><tr>
+                                <td>
+                                    <div class="rent-block__title">Доставка техники</div>
+                                    <div class="rent-block__link">
+                                        <div class="general-button" onclick="popup('callback','|Заказать','Заказать','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать');">Узнать подробнее о доставке<br>в ваш регион</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                    <div class="rent-block r2">
+                        <table>
+                            <tbody><tr>
+                                <td>
+                                    <div class="rent-block__title">Настройка оборудования<br>и загрузка необходимого ПО</div>
+                                    <div class="rent-block__description">Закажите разработку ПО, для вашего мероприятия</div>
+                                    <div class="rent-block__link">
+                                        <div class="general-button" onclick="popup('callback','|Заказать','Заказать','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать');">Подробнее</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                    <div class="rent-block r3">
+                        <table>
+                            <tbody><tr>
+                                <td>
+                                    <div class="rent-block__title">Поддержaка технического специалиста</div>
+                                    <div class="rent-block__description">Поддержка технического специалиста<br>Наш специалист берет на себя решение<br>всех технических сложностей</div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                    <div class="rent-block r4">
+                        <table>
+                            <tbody><tr>
+                                <td>
+                                    <div class="rent-block__title">Транспортировка<br>оборудования обратно<br>на склад</div>
+                                    <div class="rent-block__link">
+                                        <div class="general-button" onclick="popup('callback','|Заказать','Заказать','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать');">Узнать подробнее о возврате техники</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end rent-->
+
+
+
+        <!--beginning map-->
+        <div class="map">
+             <div class="map__indoor">
+                <div class="for-center">
+                    <p class="map__indoor__title">Контакты</p>
+                    <p class="map__indoor__info map__indoor__info--change">Адрес:</p>
+                    <p class="map__indoor__description">ул. Киевская, д. 14, стр. 1</p>
+                    <p class="map__indoor__info">Тел:</p>
+                    <p class="map__indoor__description">8 (495) 984-34-58</p>
+                    <p class="map__indoor__details map__indoor__details--change">Ваши звонки и заказы принимаются<br>с 10:00 до 22:00 ежедневно.</p>
+                    <div class="menu__indoor__button" onclick="popup('callback','|Заказать звонок','Заказать звонок','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать');">Заказать звонок</div>
+                    <p class="map__indoor__info">e-mail:</p>
+                    <p class="map__indoor__description">hello@rentomania.ru</p>
+                </div>
+            </div>
+        </div>
+        <!--end map-->
+
+        <!--beginning footer-->
+        <div class="footer">
+            <p class="footer__title">Остались вопросы?</p>
+            <p class="footer__info" onclick="popup('callback','|Задать вопрос','Задать вопрос','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Задать вопрос');">Задайте их нашему менеджеру</p>
+            <ul class="footer__list clearfix">
+                <li>
+                    <p class="footer__list__tel">8 (495) 984-34-58</p>
+                    <p class="footer__list__order" onclick="popup('callback','|Заказать звонок','Заказать звонок','Оставьте ваши контактные данные<br>и наш специалист свяжется с вами,<br>в ближайшее время','Заказать');">Заказать обратный звонок</p>
+                </li>
+                <li>
+                    <a href="http://apple.rentomania.ru/index.html" class="footer__list__policy">Политика конфиденциальности</a>
+                </li>
+            </ul>
+        </div>
+        <!--end footer-->
+
+
+    <div class="popup_overlay" onclick="popup_out();"></div>
+    <div class="popup" id="thx">
+        <div class="popup_close noselect" onclick="popup_out();"><span>&nbsp;</span></div>
+        <div class="popup_h1">Спасибо за заявку</div>
+        <div class="popup_h2">Мы перезвоним вам в ближайшее время</div>
+        <div class="btn" onclick="popup_out();">закрыть</div>
+    </div>
+    <div class="popup" id="callback">
+        <div class="popup__indoor">
+            <div class="popup_close noselect" onclick="popup_out();"><span>&nbsp;</span></div>
+            <div class="popup_h1">Заказать обратный звонок</div>
+            <div class="popup_h2">
+                Оставьте заявку, и наш специалист свяжется<br>
+                с вами, чтобы ответить на ваши вопросы.
+            </div>
+            <form action="http://apple.rentomania.ru/">
+                <div class="bg-field"><label class="name required">
+                        <input value="" name="name" placeholder="Ваше имя" type="text">
+                    </label>
+                    <label class="phone required"><input value="" name="phone" placeholder="Ваш телефон" type="text"></label><br></div>
+                <div data-name="callback" class="button noselect btn">Заказать звонок</div>
+            </form>
+        </div>
+    </div>
+
+    <input name="prefix" class="prefix" value="http://apple.rentomania.ru/apple/" type="hidden">
+    <input name="phone_format" class="phone_format" value="one" type="hidden">
+    <input name="referer" value="" type="hidden">
+    <input name="ref_url" value="" type="hidden">
+    <input class="formname" name="formname" value="" type="hidden">
+    <input class="sitename" name="sitename" value="sitename" type="hidden">
+    <input class="emailsarr" name="emailsarr" value="mokselleweb@yandex.ru|mokselleweb@yandex.ru" type="hidden">
+    <input class="city" name="city" value="Москва" type="hidden">
+
+    <script type="text/javascript" src="plugins.js"></script>
+    <script src="jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="jquery-ui.min.js" type="text/javascript"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript"> (function (d, w, c) {(w[c] = w[c] || []).push(function() {try {w.yaCounter18862495 = new Ya.Metrika({id:18862495, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "../../../../mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") {d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/18862495" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</body>
+
+<!-- Mirrored from webunicom.ru/portfolio/gadget/apple/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Jul 2018 16:55:12 GMT -->
+</html>

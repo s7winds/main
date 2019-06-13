@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Gotham Pro";
+  font-weight: 400;
+  src: url("../fonts/GothaProRegd41d.eot?") format("eot"), url("../fonts/GothaProReg.woff2") format("woff2"), url("../fonts/GothaProReg.woff") format("woff"), url("../fonts/GothaProReg.ttf") format("truetype"), url("../fonts/GothaProReg.svg#Gotham_Pro") format("svg");
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/GothaProMedItad41d.eot?") format("eot"), url("../fonts/GothaProMedIta.woff2") format("woff2"), url("../fonts/GothaProMedIta.woff") format("woff"), url("../fonts/GothaProMedIta.ttf") format("truetype"), url("../fonts/GothaProMedIta.svg#Gotham_Pro") format("svg");
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  font-weight: 500;
+  src: url("../fonts/GothaProMedd41d.eot?") format("eot"), url("../fonts/GothaProMed.woff2") format("woff2"), url("../fonts/GothaProMed.woff") format("woff"), url("../fonts/GothaProMed.ttf") format("truetype"), url("../fonts/GothaProMed.svg#Gotham_Pro") format("svg");
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  font-weight: 300;
+  src: url("../fonts/GothaProLigd41d.eot?") format("eot"), url("../fonts/GothaProLig.woff2") format("woff2"), url("../fonts/GothaProLig.woff") format("woff"), url("../fonts/GothaProLig.ttf") format("truetype"), url("../fonts/GothaProLig.svg#Gotham_Pro") format("svg");
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  font-weight: 700;
+  src: url("../fonts/GothaProBold41d.eot?") format("eot"), url("../fonts/GothaProBol.woff2") format("woff2"), url("../fonts/GothaProBol.woff") format("woff"), url("../fonts/GothaProBol.ttf") format("truetype"), url("../fonts/GothaProBol.svg#Gotham_Pro") format("svg");
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  font-weight: 900;
+  src: url("../fonts/GothaProBlad41d.eot?") format("eot"), url("../fonts/GothaProBla.woff2") format("woff2"), url("../fonts/GothaProBla.woff") format("woff"), url("../fonts/GothaProBla.ttf") format("truetype"), url("../fonts/GothaProBla.svg#Gotham_Pro") format("svg");
+}
