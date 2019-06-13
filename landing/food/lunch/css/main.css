@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+h2{
+    font-size: 52px;
+    margin:0 0 45px;
+    text-align: center;
+}
+
+h2 span{
+    font-weight: 100;
+    display: block;
+}
+
+h1 {
+    margin: 0;
+    font-size: 49px;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 15px;
+    border: 1px solid#333739;
+}
+
+h1 span {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+h1 img{
+    display: block;
+    margin: 5px auto -3px;
+}
+
+
+
+section{
+    padding: 65px 0;
+    position: relative;
+}
+
+.big-form .main-btn{
+    width: 100%;
+}
+
+.title-form{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px 0 30px;
+}
+
+.title-form span{
+    font-weight: 100;
+    display: block;
+}
+
+.main-btn{
+    padding: 18px;
+    min-width: 260px;
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    background: #ffd200;
+    height: 60px;
+    text-align: center;
+    transition: 0.3s all;
+}
+
+.main-btn:hover,.main-btn:focus{
+    background: #ffe35f;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.sub-btn {
+    display: inline-block;
+    border: 1px solid#d0d0d0;
+    width: 120px;
+    text-align: center;
+    color: #000;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 5px 18px;
+    border-radius: 16px;
+    margin-top: 15px;
+    transition: 0.3s all;
+}
+
+.sub-btn:hover,.sub-btn:focus{
+    background: #d0d0d0;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-input {
+    width: 100%;
+    font-weight: 700;
+    font-size: 21px;
+    height: 60px;
+    display: block;
+    line-height: 60px;
+    outline: 0px;
+    background: rgb(255, 255, 255);
+    border-width: 0px;
+    border-radius: 32px;
+    padding: 0px 40px;
+    margin: 0px auto;
+    color: #000;
+}
+
+.navbar-inverse {
+    background: none;
+    border: none;
+    padding-top: 25px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #c1c2c3;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.navbar-inverse .navbar-nav>li:last-child>a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li:last-child>.main-btn:hover {
+    color: #000;
+    background: #ffe35f;
+
+}
+
+
+.navbar-inverse .navbar-nav>li:last-child>.main-btn {
+    font-weight: 500;
+    color: #000;
+    font-size: 14px;
+    width: auto;
+    min-width: 97px;
+    padding: 10px;
+    height: auto;
+    margin: 0 15px;
+    text-transform: inherit;
+}
+
+header {
+    padding: 0px 0 65px;
+    /*background: #121519;*/
+    /*background: -webkit-linear-gradient(#172a39, #121519);*/
+    /*background: -o-linear-gradient(#172a39, #121519);*/
+    /*background: -moz-linear-gradient(#172a39, #121519);*/
+    /*background: linear-gradient(#172a39, #121519);*/
+    background: url("../img/header.jpg") center;
+    background-size: cover;
+}
+
+header .main-btn {
+    margin: 0 auto;
+    display: block;
+    width: 320px;
+    background: #ffd200;
+}
+
+.header-box {
+    background: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 150px 0 100px;
+}
+
+.icon-box {
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+.icon-box span {
+    display: block;
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+#category{
+    background: url("../img/category.jpg");
+    background-size:cover;
+    color: #fff;
+}
+
+.category-card {
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 10px 14px 58px rgba(0, 0, 0, 0.84);
+}
+
+.category-card img{
+    width: 100%;
+}
+
+.category-card .main-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    bottom: 0;
+}
+
+.category-card .main-info .sub-btn {
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    left: 20px;
+}
+
+.category-card .main-info h3 {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.category-card .main-info h3 span{
+    display: block;
+    font-weight: 100;
+}
+
+.category-card .main-info .price {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+#delivery{
+    background: #f2f4f6;
+    color: #545455;
+    text-align: center;
+    position: relative;
+}
+
+.car-img {
+    width: 100%;
+}
+
+.after-h2{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.service-box{
+    position: relative;
+}
+
+.service-box img{
+    width: 100%;
+}
+
+.service-box h3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    color: #fff;
+    margin: 0;
+    font-size: 26px;
+}
+
+#individually{
+    background: url("../img/individ.jpg") center;
+    background-size: cover;
+    color: #fff;
+}
+
+.small-form {
+    padding: 45px 20px;
+    border: 2px solid#a5a5a8;
+    text-align: center;
+}
+
+.small-form .title-form{
+    text-transform: uppercase;
+    margin-top:0;
+}
+.small-form .title-form span{
+    text-transform: lowercase;
+}
+
+.small-form .main-input {
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+.small-form .main-btn {
+    width: 80%;
+}
+
+#map{
+    padding: 0;
+    margin-bottom: -6px;
+    position: relative;
+}
+
+.map-google {
+    height: 545px;
+}
+
+.contact-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 6px;
+    background: rgba(0, 0, 0, 0.17);
+    padding: 130px;
+    color: #fff;
+}
+
+.contact-box .title {
+    font-size: 46px;
+    font-weight:100;
+}
+
+.contact-box .street {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.contact-box .phone {
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-box .main-btn{
+    font-weight: 500;
+    color: #000;
+    font-size: 14px;
+    width: auto;
+    min-width: 185px;
+    padding: 10px;
+    height: auto;
+    text-transform: inherit;
+    display: inline-block;
+}
+
+
+#footer{
+    padding: 65px 0;
+    background: url("../img/footer.png") center top;
+    background-size: cover;
+    color: #fff;
+}
+
+#footer .title-form{
+    margin-top:0;
+}
+
+.pr1{
+    position: absolute;
+    z-index:101;
+    left: 0;
+}
+
+.pr2{
+     position: absolute;
+    z-index: 100;
+    left:0;
+}
+
+.pr3{
+    position: absolute;
+    z-index:101;
+    left: 0;
+}
+
+.pr4{
+    position: absolute;
+    z-index: 100;
+    left:0;
+}
+
+.pr5{
+    position: absolute;
+    z-index:101;
+    right: 0;
+}
+
+.pr6{
+    position: absolute;
+    z-index: 100;
+    right:0;
+}
+
+.pr7{
+    position: absolute;
+    z-index:101;
+    right: 0;
+}
+
+
+.pr8{
+    position: absolute;
+    z-index: 100;
+    left:0;
+}
+
+.pr9{
+    position: absolute;
+    z-index:101;
+    left: 0;
+}
+
+.pr10{
+    position: absolute;
+    z-index: 100;
+    right:0;
+}
+
+.pr11{
+    position: absolute;
+    z-index:101;
+    right: 0;
+}
+
+.close {
+    font-size: 35px;
+    position: absolute;
+    top: 21px;
+    right: 28px;
+}
+
+.modal-body .main-input {
+    background: rgb(240, 246, 249);
+}
+
+@media(max-width: 1200px){
+    .navbar-brand>img {
+        display: block;
+        width: 190px;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        font-size: 18px;
+    }
+
+    h1 img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    h1 span {
+        font-size: 31px;
+    }
+
+    .header-box {
+        margin: 100px 0 100px;
+    }
+
+    #individually {
+        background: url(../img/individ.html) right;
+    }
+
+    .small-form .title-form {
+        font-size: 30px;
+    }
+}
+
+
+
+@media(max-width: 992px){
+.main-input {
+    margin: 0px auto 20px;
+}
+    .navbar-brand>img {
+        width: 120px;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        font-size: 16px;
+        padding: 15px 8px;
+    }
+
+    .navbar-inverse .navbar-nav>li:last-child>.main-btn {
+        margin: 0;
+    }
+
+    .pr1,.pr2,.pr3,.pr4,.pr8,.pr9 {
+        left: -70px;
+    }
+
+    .pr5,.pr6,.pr7,.pr10,.pr11   {
+        right: -70px;
+    }
+
+    .service-card{
+        margin-bottom: 30px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+
+
+@media(max-width: 768px){
+    .pr1,.pr2,.pr3,.pr4,.pr5,.pr6,.pr7,.pr8,.pr9,.pr10,.pr11{
+        display: none;
+    }
+
+    .category-card .main-info h3 {
+        font-size: 24px;
+    }
+
+    .category-card .main-info .price {
+        font-size: 19px;
+    }
+
+    .navbar-inverse {
+        padding-top: 0;
+        background: #202020;
+    }
+
+    .navbar-brand {
+        overflow: hidden;
+    }
+
+    .navbar-header {
+        padding-bottom: 10px;
+    }
+
+    .navbar-nav {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    #bs-example-navbar-collapse-1 {
+        box-shadow: 0 3px 22px black;
+        padding-bottom: 15px;
+    }
+
+    header .main-btn {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .title-form {
+        font-size: 26px;
+    }
+
+    .small-form .title-form {
+        font-size: 24px;
+    }
+
+    .small-form .main-input {
+        width: 100%;
+    }
+
+    .small-form .main-btn {
+        width: 100%;
+        min-width: auto;
+    }
+
+    #map, #footer{
+        display: none;
+    }
+
+    .navbar-toggle {
+        margin-top: 13px;
+    }
+
+    .small-form .title-form {
+        font-size: 22px;
+    }
+
+    .car-img {
+        margin-top: 20px;
+    }
+}
+
