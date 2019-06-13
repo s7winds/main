@@ -1,0 +1,126 @@
+/* jqModal base Styling courtesy of;
+	Brice Burgess <bhb@iceburg.net> */
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+	the Window's z-index value will be set to 3000 by default (via jqModal.js). */
+
+.jqmWindow{
+    display: none;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    margin-left: -210px;
+    padding: 15px;
+
+    text-align: center;
+    background-color: #fff;
+}
+.jqmOverlay { background-color: black; opacity: 1;}
+
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+	width: expression(this.parentNode.offsetWidth+'px');
+	height: expression(this.parentNode.offsetHeight+'px');
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+body .jqmWindow .close-form{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 15px;
+  right: 20px;
+  z-index: 10;
+  cursor: pointer;
+}
+body .jqmWindow .close-form:before,
+body .jqmWindow .close-form:after{
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  background-color: #757575;
+  content: '';
+  transform: rotate(-45deg);
+}
+body .jqmWindow .close-form:after{
+  transform: rotate(45deg);
+}
+body .jqmWindow form {
+  display: block;
+  width: 420px;
+  padding: 0;
+  background-color: #ffffff;
+  border-radius: 0;
+}
+body .jqmWindow form.form-popup-tobeclient{
+  height: 380px;
+}
+body .jqmWindow form.form-popup-getprice{
+  height: 310px;
+}
+body .jqmWindow.getpaper form{
+  height: 250px;
+}
+
+body .jqmWindow.getprice p,
+body .jqmWindow.getpaper p{
+  width: 350px;
+  margin: auto;
+  font-size: 20px;
+  color: #000;
+}
+body .jqmWindow form p{
+  width: 300px;
+  margin: auto;
+}
+body .jqmWindow form input {
+  width: 100%;
+  background-color: #fff;
+  color: #5f3e3b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  border: none;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+body .jqmWindow form textarea{
+  height: 110px;
+}
+body .jqmWindow form input[type="submit"]{
+  border: none;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+body .jqmWindow form input:focus, textarea:focus {
+  border: 1px solid #757585;
+}
+body .jqmWindow form span {
+  color: #3d3d3d;
+}
+body .jqmWindow.our_products form{
+  height: 250px;
+}
+body .jqmWindow .list_products .list_header{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+body .jqmWindow .list_products ul{
+  display: inline-block;
+  width: 50%;
+}
+body .jqmWindow .list_products ul li{
+  list-style: inside;
+  text-align: left;
+}
