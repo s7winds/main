@@ -1,83 +1,698 @@
- @media (max-width: 999px){#webunicom  {display:none;}}
-#webunicom { display: none ! important;}
-#webunicom  body, #webunicom  div, #webunicom  span, #webunicom  applet, #webunicom  object, #webunicom  iframe, #webunicom  h1, #webunicom  h2, #webunicom  h3, #webunicom  h4, #webunicom  h5, #webunicom  h6, #webunicom  p, #webunicom  blockquote, #webunicom  pre, #webunicom  a, #webunicom  abbr, #webunicom  acronym, #webunicom  address, #webunicom  big, #webunicom  cite, #webunicom  code, #webunicom  del, #webunicom  dfn, #webunicom  em, #webunicom  img, #webunicom  ins, #webunicom  kbd, #webunicom  q, #webunicom  s, #webunicom  samp, #webunicom  small, #webunicom  strike, #webunicom  strong, #webunicom  sub, #webunicom  sup, #webunicom  tt, #webunicom  var, #webunicom  b, #webunicom  u, #webunicom  i, #webunicom  center, #webunicom  dl, #webunicom  dt, #webunicom  dd, #webunicom  ol, #webunicom  ul, #webunicom  li, #webunicom  fieldset, #webunicom  form, #webunicom  label, #webunicom  legend, #webunicom  table, #webunicom  caption, #webunicom  tbody, #webunicom  tfoot, #webunicom  thead, #webunicom  tr, #webunicom  th, #webunicom  td, #webunicom  article, #webunicom  aside, #webunicom  canvas, #webunicom  details, #webunicom  embed, #webunicom  figure, #webunicom  figcaption, #webunicom  footer, #webunicom  header, #webunicom  hgroup, #webunicom  menu, #webunicom  nav, #webunicom  output, #webunicom  ruby, #webunicom  section, #webunicom  summary, #webunicom  time, #webunicom  mark, #webunicom  audio, #webunicom  video{border:0px none;font:inherit;vertical-align:baseline;margin:0px;padding:0px;} #webunicom  body{line-height:1;} #webunicom  ol, #webunicom  ul{list-style:none outside none;} #webunicom  *, #webunicom  *:before, #webunicom  *:after{-moz-box-sizing:border-box;} #webunicom  html, #webunicom  body{font-size:100%;} #webunicom  body{background:none repeat scroll 0% 0% white;color:rgb(34, #webunicom  34, #webunicom  34);padding:0px;margin:0px;font-weight:normal;font-style:normal;line-height:1;position:relative;cursor:default;} #webunicom  a:hover{cursor:pointer;} #webunicom  a:focus{outline:medium none;} #webunicom  article, #webunicom  aside, #webunicom  details, #webunicom  figcaption, #webunicom  figure, #webunicom  footer, #webunicom  header, #webunicom  hgroup, #webunicom  menu, #webunicom  nav, #webunicom  section{display:block;} #webunicom  body{line-height:1;} #webunicom  ol, #webunicom  ul{list-style:none outside none;} #webunicom  *, #webunicom  *:before, #webunicom  *:after{-moz-box-sizing:border-box;} #webunicom  html, #webunicom  body{font-size:100%;} #webunicom  body{background:none repeat scroll 0% 0% white;color:rgb(34, #webunicom  34, #webunicom  34);padding:0px;margin:0px;font-weight:normal;font-style:normal;line-height:1;position:relative;cursor:default;} #webunicom  a:hover{cursor:pointer;} #webunicom  a:focus{outline:medium none;} #webunicom  img, #webunicom  object, #webunicom  embed{max-width:100%;height:auto;}
-#webunicom *{margin:0;padding:0;position:relative;box-sizing:border-box;line-height:1;}
-#webunicom{color:#fff;font-family:'Roboto Condensed';  font-weight:100; font-family:'PT Sans', sans-serif;font-size:14px;background:#fff;}
-#webunicom section, #webunicom  .b-vibers span{ display: none ! important;}
+ @media (max-width: 999px) {
+     #webunicom {
+         display: none;
+     }
+ }
 
-#webunicom #unicom #shadow{background-image:linear-gradient(#d7d7d7, #fff);height:100px;position:absolute;width:100%;}
-#webunicom #unicom section{width:100%;height:600px;background:url('images/site/bg-portfolio.html') no-repeat center 0;}
-#webunicom #unicom #wrap{width:800px;height:100%;margin:auto;padding-top:50px;padding-bottom:50px;}
-#webunicom #unicom #s-header{width:650px;margin:auto;font:41px 'Roboto Condensed';font-weight:700;color:#45aaec;text-transform:uppercase;}
-#webunicom #unicom #s-header span{display:block;}
-#webunicom #unicom #s-header span:first-of-type{font:400 36px 'Roboto Condensed';color:#4f4f4f;text-transform:none;}
-#webunicom #unicom #s-header span:last-of-type{margin-left:30px;}
-#webunicom #unicom #s-content{font:28px 'Roboto Condensed';position:absolute;right:-50px;}
-#webunicom #unicom #s-content p{margin-right:20px;margin-top:70px;text-transform:uppercase;font:800 29px 'Roboto Condensed';text-shadow:1px 1px 0 #559fd6;letter-spacing:1px;}
-#webunicom #unicom #s-content span{letter-spacing:0;}
-#webunicom #unicom #s-content #number-phone{color:#fff226;margin-left:5px;}
-#webunicom #unicom #s-content span:last-of-type{display:block;color:#d5eaf8;font:400 23px 'Roboto Condensed';text-transform:none;}
-#webunicom #unicom #s-content form{display:inline-block;margin-top:65px;margin-left:40px;}
-#webunicom #unicom #s-content input{border:none;border-radius:6px;font-family:'Roboto Condensed';}
-#webunicom #unicom #s-content input[type="text"]{width:280px;height:43px;margin-right:-10px;padding:13px 7px 8px 11px;font-size:17px;font-style:italic;color:#9c9c9c;border:1px solid #9c9c9c;letter-spacing:1px;}
-#webunicom #unicom #s-content input[type="submit"]{padding:11px 30px;font-size:20px;color:#fff;background:url('images/site/bg-submit.html') no-repeat 100% 100%;vertical-align:top;text-shadow:1px 1px 0 #559fd6;cursor:pointer;}
-#webunicom #unicom #s-footer{position:absolute;bottom:55px;right:-100px;font:12px 'Roboto Condensed';}
-#webunicom #unicom #s-footer ul{display:inline-block;margin-top:60px;}
-#webunicom #unicom #s-footer ul li{display:inline-block;margin-right:50px;width:160px;height:50px;background:url('images/site/1.html') no-repeat;list-style:none;color:#5d4a25;text-align:center;vertical-align:top;}
-#webunicom #unicom #s-footer ul li:last-of-type{margin-right:0;}
-#webunicom #unicom #s-footer ul li span{display:block;margin:auto;padding:10px 0;width:85px;letter-spacing:1px;text-shadow:1px 1px 0 #ffd905;}
-#webunicom #unicom #bottom{position:relative;overflow:hidden;background:#f3f6f7;margin-top:0px;padding:25px 0;}
-#webunicom #unicom #bottom a{color:#8b8b8b;}
-#webunicom #unicom #bottom #col1 span, #webunicom #unicom #bottom #col2 span,
-#webunicom #unicom #bottom #col3 span, #webunicom #unicom #bottom #col4 span  {color:#000;font-size:11px;margin-top:1px;}
-#webunicom #unicom #bottom ul  { margin-top:6px;}
+ #webunicom {
+     display: none ! important;
+ }
 
-#webunicom #unicom #bottom #col1{float:left;width:210px;position:relative;overflow:hidden;}
-#webunicom #unicom #bottom #col2,#bottom #col3{float:left;width:210px;}
-#webunicom #unicom #bottom #col4{float:left;width:187px;}
-#webunicom #unicom #bottom #logo{font-size:13px;color:#999;display:block;text-decoration:none;padding-top:28px;}
-#webunicom #unicom #bottom a:hover{color:#fff;background:#0090ff;border-radius:4px;opacity:1.0 ! important;text-decoration:none;padding:0 5px;}
-#webunicom #unicom #bottom li{padding:4px 0;}
-#webunicom #unicom #bottom li a{font-size:13px;text-decoration:none;color:#8b8b8b;}
-#webunicom #unicom #bottom h3{font-size:17px;text-transform:uppercase;font-weight:700;line-height:17px;color:#333;}
-#webunicom #unicom #bottom b{text-transform:uppercase;font-weight:700;color:#333;}
-#webunicom #unicom #bottom img{float:left;height:18px;margin:0 5px -5px 0;}
-#webunicom #unicom #bottom-flat{border:1px solid #7A7A7C  !important;color:#8b8b8b;border-radius:5px;height:32px !important;width:173px !important;color:#333 !important;text-decoration:none;display:block;font-size:16px !important;text-align:center;line-height:28px;padding:-2px;}
-#webunicom #unicom #bottom-flat:hover{background:#0090ff  !important;border:1px solid #0090ff !important;color:#f3f6f7 !important;opacity:1.0 !important;}
-#webunicom #unicom #bottom #left{float:left;position:relative;}
-#webunicom #unicom #data{font-size:11px;text-align:right;display:block;text-decoration:none;color:#999;}
-#webunicom #unicom #phone{line-height:19px;color:#999;float:left;}
-#webunicom #unicom #phone a{text-decoration: none;}
-#webunicom .b-vibers {
-	padding-left: 82px;
-}
-#webunicom #unicom #bottom-blue{width:100%;background:url(images/web/bg2.html) no-repeat fixed 0 0 / 100% 100%;height:155px;padding-top:48px;}
-#webunicom #unicom #bottom-center{width:1024px;height:62px;text-align:center;font-weight:700;color:#fff;font-size:61px;line-height:26px;text-transform:uppercase;margin:0 auto;padding:12px 5px 0;}
-#webunicom #unicom #bottom-big{font-weight:700;color:#fff;text-decoration:none;font-size:60px;border-bottom:1px solid #fff;padding-bottom:0;}
-#webunicom #unicom #bottom-blue:hover a{color:#006cb0 !important;background:#fff;text-decoration:none;border-radius:5px;padding:0 10px;}
-#webunicom #unicom #bottom-blue a{padding:0 10px;}
-#webunicom #unicom #b-none{border:none !important;}
-#webunicom #unicom header{height:100px;background:#f3f6f7;border:1px solid #E7E7E7;}
-#webunicom #unicom #contener{position:relative  !important;width:1062px  !important;margin:0 auto  !important;}
-#webunicom #unicom #bottom #contener{position:relative  !important;width:1062px  !important;margin:0 auto  !important;}
-#webunicom #unicom header #logo{left:0;padding-top:6px;height:60px;}
-#webunicom #unicom header #data{position:absolute;top:32px;right:0;line-height:14px;}
-#webunicom #unicom header #logo{position:absolute;top:29px;left:0;}
-#webunicom #unicom  header #logo p{color:#333;font-size:13px;}
-#webunicom  #fl{display:none;}
-#webunicom  #fl{width:100%;height:50px;font-size:15px;color:#fff;background:url('images/site/bg.html') no-repeat;-webkit-background-size:100% 100%;background-size:100% 100%;text-transform:uppercase;}
-#webunicom  #fl #wrapper{width:1060px;height:100%;padding:5px;margin:auto;height: 40px;}
-#webunicom  #fl #wrapper > *{display:inline-block;margin-right:-4px;}
-#webunicom  #fl #logo{display:inline-block;width:63px;height:50px;margin-top:-5px;margin-right:30px;vertical-align:top;}
-#webunicom  #fl #logo  img{ height:48px; }
-#webunicom  #fl #text{position:relative;margin-right:40px;}
-#webunicom  #fl #text:after{position:absolute;content:'';width:14px;height:14px;right:-15px;top:-7px;background:url('images/site/icon.html') no-repeat;}
-#webunicom  #fl #skype a{position:relative;padding-left:30px;color:#fff;text-transform:none;}
-#webunicom  #fl #skype a:before{position:absolute;content:'';width:18px;height:18px;left:5px;background:url('images/site/skype.html') no-repeat;}
-#webunicom  #fl #person{width:196px;margin-left:60px;vertical-align:middle;}
-#webunicom  #fl #person img{float:left;}
-#webunicom  #fl #person #name_person{margin-top:5px;font-weight:700;font-size:14px;}
-#webunicom  #fl #person #site_person{font-size:12px;text-transform:none;  }
-#webunicom  #fl #person #site_person a{color:#fff;text-decoration:none;opacity:0.8;}
-#webunicom  #fl #skype a:hover{opacity:0.7;}
-#webunicom  #fl  #site_person a:hover{opacity:0.5;}
+ #webunicom body,
+ #webunicom div,
+ #webunicom span,
+ #webunicom applet,
+ #webunicom object,
+ #webunicom iframe,
+ #webunicom h1,
+ #webunicom h2,
+ #webunicom h3,
+ #webunicom h4,
+ #webunicom h5,
+ #webunicom h6,
+ #webunicom p,
+ #webunicom blockquote,
+ #webunicom pre,
+ #webunicom a,
+ #webunicom abbr,
+ #webunicom acronym,
+ #webunicom address,
+ #webunicom big,
+ #webunicom cite,
+ #webunicom code,
+ #webunicom del,
+ #webunicom dfn,
+ #webunicom em,
+ #webunicom img,
+ #webunicom ins,
+ #webunicom kbd,
+ #webunicom q,
+ #webunicom s,
+ #webunicom samp,
+ #webunicom small,
+ #webunicom strike,
+ #webunicom strong,
+ #webunicom sub,
+ #webunicom sup,
+ #webunicom tt,
+ #webunicom var,
+ #webunicom b,
+ #webunicom u,
+ #webunicom i,
+ #webunicom center,
+ #webunicom dl,
+ #webunicom dt,
+ #webunicom dd,
+ #webunicom ol,
+ #webunicom ul,
+ #webunicom li,
+ #webunicom fieldset,
+ #webunicom form,
+ #webunicom label,
+ #webunicom legend,
+ #webunicom table,
+ #webunicom caption,
+ #webunicom tbody,
+ #webunicom tfoot,
+ #webunicom thead,
+ #webunicom tr,
+ #webunicom th,
+ #webunicom td,
+ #webunicom article,
+ #webunicom aside,
+ #webunicom canvas,
+ #webunicom details,
+ #webunicom embed,
+ #webunicom figure,
+ #webunicom figcaption,
+ #webunicom footer,
+ #webunicom header,
+ #webunicom hgroup,
+ #webunicom menu,
+ #webunicom nav,
+ #webunicom output,
+ #webunicom ruby,
+ #webunicom section,
+ #webunicom summary,
+ #webunicom time,
+ #webunicom mark,
+ #webunicom audio,
+ #webunicom video {
+     border: 0px none;
+     font: inherit;
+     vertical-align: baseline;
+     margin: 0px;
+     padding: 0px;
+ }
+
+ #webunicom body {
+     line-height: 1;
+ }
+
+ #webunicom ol,
+ #webunicom ul {
+     list-style: none outside none;
+ }
+
+ #webunicom *,
+ #webunicom *:before,
+ #webunicom *:after {
+     -moz-box-sizing: border-box;
+ }
+
+ #webunicom html,
+ #webunicom body {
+     font-size: 100%;
+ }
+
+ #webunicom body {
+     background: none repeat scroll 0% 0% white;
+     color: rgb(34, #webunicom 34, #webunicom 34);
+     padding: 0px;
+     margin: 0px;
+     font-weight: normal;
+     font-style: normal;
+     line-height: 1;
+     position: relative;
+     cursor: default;
+ }
+
+ #webunicom a:hover {
+     cursor: pointer;
+ }
+
+ #webunicom a:focus {
+     outline: medium none;
+ }
+
+ #webunicom article,
+ #webunicom aside,
+ #webunicom details,
+ #webunicom figcaption,
+ #webunicom figure,
+ #webunicom footer,
+ #webunicom header,
+ #webunicom hgroup,
+ #webunicom menu,
+ #webunicom nav,
+ #webunicom section {
+     display: block;
+ }
+
+ #webunicom body {
+     line-height: 1;
+ }
+
+ #webunicom ol,
+ #webunicom ul {
+     list-style: none outside none;
+ }
+
+ #webunicom *,
+ #webunicom *:before,
+ #webunicom *:after {
+     -moz-box-sizing: border-box;
+ }
+
+ #webunicom html,
+ #webunicom body {
+     font-size: 100%;
+ }
+
+ #webunicom body {
+     background: none repeat scroll 0% 0% white;
+     color: rgb(34, #webunicom 34, #webunicom 34);
+     padding: 0px;
+     margin: 0px;
+     font-weight: normal;
+     font-style: normal;
+     line-height: 1;
+     position: relative;
+     cursor: default;
+ }
+
+ #webunicom a:hover {
+     cursor: pointer;
+ }
+
+ #webunicom a:focus {
+     outline: medium none;
+ }
+
+ #webunicom img,
+ #webunicom object,
+ #webunicom embed {
+     max-width: 100%;
+     height: auto;
+ }
+
+ #webunicom * {
+     margin: 0;
+     padding: 0;
+     position: relative;
+     box-sizing: border-box;
+     line-height: 1;
+ }
+
+ #webunicom {
+     color: #fff;
+     font-family: 'Roboto Condensed';
+     font-weight: 100;
+     font-family: 'PT Sans', sans-serif;
+     font-size: 14px;
+     background: #fff;
+ }
+
+ #webunicom section,
+ #webunicom .b-vibers span {
+     display: none ! important;
+ }
+
+ #webunicom #unicom #shadow {
+     background-image: linear-gradient(#d7d7d7, #fff);
+     height: 100px;
+     position: absolute;
+     width: 100%;
+ }
+
+ #webunicom #unicom section {
+     width: 100%;
+     height: 600px;
+     background: url('images/site/bg-portfolio.html') no-repeat center 0;
+ }
+
+ #webunicom #unicom #wrap {
+     width: 800px;
+     height: 100%;
+     margin: auto;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+
+ #webunicom #unicom #s-header {
+     width: 650px;
+     margin: auto;
+     font: 41px 'Roboto Condensed';
+     font-weight: 700;
+     color: #45aaec;
+     text-transform: uppercase;
+ }
+
+ #webunicom #unicom #s-header span {
+     display: block;
+ }
+
+ #webunicom #unicom #s-header span:first-of-type {
+     font: 400 36px 'Roboto Condensed';
+     color: #4f4f4f;
+     text-transform: none;
+ }
+
+ #webunicom #unicom #s-header span:last-of-type {
+     margin-left: 30px;
+ }
+
+ #webunicom #unicom #s-content {
+     font: 28px 'Roboto Condensed';
+     position: absolute;
+     right: -50px;
+ }
+
+ #webunicom #unicom #s-content p {
+     margin-right: 20px;
+     margin-top: 70px;
+     text-transform: uppercase;
+     font: 800 29px 'Roboto Condensed';
+     text-shadow: 1px 1px 0 #559fd6;
+     letter-spacing: 1px;
+ }
+
+ #webunicom #unicom #s-content span {
+     letter-spacing: 0;
+ }
+
+ #webunicom #unicom #s-content #number-phone {
+     color: #fff226;
+     margin-left: 5px;
+ }
+
+ #webunicom #unicom #s-content span:last-of-type {
+     display: block;
+     color: #d5eaf8;
+     font: 400 23px 'Roboto Condensed';
+     text-transform: none;
+ }
+
+ #webunicom #unicom #s-content form {
+     display: inline-block;
+     margin-top: 65px;
+     margin-left: 40px;
+ }
+
+ #webunicom #unicom #s-content input {
+     border: none;
+     border-radius: 6px;
+     font-family: 'Roboto Condensed';
+ }
+
+ #webunicom #unicom #s-content input[type="text"] {
+     width: 280px;
+     height: 43px;
+     margin-right: -10px;
+     padding: 13px 7px 8px 11px;
+     font-size: 17px;
+     font-style: italic;
+     color: #9c9c9c;
+     border: 1px solid #9c9c9c;
+     letter-spacing: 1px;
+ }
+
+ #webunicom #unicom #s-content input[type="submit"] {
+     padding: 11px 30px;
+     font-size: 20px;
+     color: #fff;
+     background: url('images/site/bg-submit.html') no-repeat 100% 100%;
+     vertical-align: top;
+     text-shadow: 1px 1px 0 #559fd6;
+     cursor: pointer;
+ }
+
+ #webunicom #unicom #s-footer {
+     position: absolute;
+     bottom: 55px;
+     right: -100px;
+     font: 12px 'Roboto Condensed';
+ }
+
+ #webunicom #unicom #s-footer ul {
+     display: inline-block;
+     margin-top: 60px;
+ }
+
+ #webunicom #unicom #s-footer ul li {
+     display: inline-block;
+     margin-right: 50px;
+     width: 160px;
+     height: 50px;
+     background: url('images/site/1.html') no-repeat;
+     list-style: none;
+     color: #5d4a25;
+     text-align: center;
+     vertical-align: top;
+ }
+
+ #webunicom #unicom #s-footer ul li:last-of-type {
+     margin-right: 0;
+ }
+
+ #webunicom #unicom #s-footer ul li span {
+     display: block;
+     margin: auto;
+     padding: 10px 0;
+     width: 85px;
+     letter-spacing: 1px;
+     text-shadow: 1px 1px 0 #ffd905;
+ }
+
+ #webunicom #unicom #bottom {
+     position: relative;
+     overflow: hidden;
+     background: #f3f6f7;
+     margin-top: 0px;
+     padding: 25px 0;
+ }
+
+ #webunicom #unicom #bottom a {
+     color: #8b8b8b;
+ }
+
+ #webunicom #unicom #bottom #col1 span,
+ #webunicom #unicom #bottom #col2 span,
+ #webunicom #unicom #bottom #col3 span,
+ #webunicom #unicom #bottom #col4 span {
+     color: #000;
+     font-size: 11px;
+     margin-top: 1px;
+ }
+
+ #webunicom #unicom #bottom ul {
+     margin-top: 6px;
+ }
+
+ #webunicom #unicom #bottom #col1 {
+     float: left;
+     width: 210px;
+     position: relative;
+     overflow: hidden;
+ }
+
+ #webunicom #unicom #bottom #col2,
+ #bottom #col3 {
+     float: left;
+     width: 210px;
+ }
+
+ #webunicom #unicom #bottom #col4 {
+     float: left;
+     width: 187px;
+ }
+
+ #webunicom #unicom #bottom #logo {
+     font-size: 13px;
+     color: #999;
+     display: block;
+     text-decoration: none;
+     padding-top: 28px;
+ }
+
+ #webunicom #unicom #bottom a:hover {
+     color: #fff;
+     background: #0090ff;
+     border-radius: 4px;
+     opacity: 1.0 ! important;
+     text-decoration: none;
+     padding: 0 5px;
+ }
+
+ #webunicom #unicom #bottom li {
+     padding: 4px 0;
+ }
+
+ #webunicom #unicom #bottom li a {
+     font-size: 13px;
+     text-decoration: none;
+     color: #8b8b8b;
+ }
+
+ #webunicom #unicom #bottom h3 {
+     font-size: 17px;
+     text-transform: uppercase;
+     font-weight: 700;
+     line-height: 17px;
+     color: #333;
+ }
+
+ #webunicom #unicom #bottom b {
+     text-transform: uppercase;
+     font-weight: 700;
+     color: #333;
+ }
+
+ #webunicom #unicom #bottom img {
+     float: left;
+     height: 18px;
+     margin: 0 5px -5px 0;
+ }
+
+ #webunicom #unicom #bottom-flat {
+     border: 1px solid #7A7A7C !important;
+     color: #8b8b8b;
+     border-radius: 5px;
+     height: 32px !important;
+     width: 173px !important;
+     color: #333 !important;
+     text-decoration: none;
+     display: block;
+     font-size: 16px !important;
+     text-align: center;
+     line-height: 28px;
+     padding: -2px;
+ }
+
+ #webunicom #unicom #bottom-flat:hover {
+     background: #0090ff !important;
+     border: 1px solid #0090ff !important;
+     color: #f3f6f7 !important;
+     opacity: 1.0 !important;
+ }
+
+ #webunicom #unicom #bottom #left {
+     float: left;
+     position: relative;
+ }
+
+ #webunicom #unicom #data {
+     font-size: 11px;
+     text-align: right;
+     display: block;
+     text-decoration: none;
+     color: #999;
+ }
+
+ #webunicom #unicom #phone {
+     line-height: 19px;
+     color: #999;
+     float: left;
+ }
+
+ #webunicom #unicom #phone a {
+     text-decoration: none;
+ }
+
+ #webunicom .b-vibers {
+     padding-left: 82px;
+ }
+
+ #webunicom #unicom #bottom-blue {
+     width: 100%;
+     background: url(images/web/bg2.html) no-repeat fixed 0 0 / 100% 100%;
+     height: 155px;
+     padding-top: 48px;
+ }
+
+ #webunicom #unicom #bottom-center {
+     width: 1024px;
+     height: 62px;
+     text-align: center;
+     font-weight: 700;
+     color: #fff;
+     font-size: 61px;
+     line-height: 26px;
+     text-transform: uppercase;
+     margin: 0 auto;
+     padding: 12px 5px 0;
+ }
+
+ #webunicom #unicom #bottom-big {
+     font-weight: 700;
+     color: #fff;
+     text-decoration: none;
+     font-size: 60px;
+     border-bottom: 1px solid #fff;
+     padding-bottom: 0;
+ }
+
+ #webunicom #unicom #bottom-blue:hover a {
+     color: #006cb0 !important;
+     background: #fff;
+     text-decoration: none;
+     border-radius: 5px;
+     padding: 0 10px;
+ }
+
+ #webunicom #unicom #bottom-blue a {
+     padding: 0 10px;
+ }
+
+ #webunicom #unicom #b-none {
+     border: none !important;
+ }
+
+ #webunicom #unicom header {
+     height: 100px;
+     background: #f3f6f7;
+     border: 1px solid #E7E7E7;
+ }
+
+ #webunicom #unicom #contener {
+     position: relative !important;
+     width: 1062px !important;
+     margin: 0 auto !important;
+ }
+
+ #webunicom #unicom #bottom #contener {
+     position: relative !important;
+     width: 1062px !important;
+     margin: 0 auto !important;
+ }
+
+ #webunicom #unicom header #logo {
+     left: 0;
+     padding-top: 6px;
+     height: 60px;
+ }
+
+ #webunicom #unicom header #data {
+     position: absolute;
+     top: 32px;
+     right: 0;
+     line-height: 14px;
+ }
+
+ #webunicom #unicom header #logo {
+     position: absolute;
+     top: 29px;
+     left: 0;
+ }
+
+ #webunicom #unicom header #logo p {
+     color: #333;
+     font-size: 13px;
+ }
+
+ #webunicom #fl {
+     display: none;
+ }
+
+ #webunicom #fl {
+     width: 100%;
+     height: 50px;
+     font-size: 15px;
+     color: #fff;
+     background: url('images/site/bg.html') no-repeat;
+     -webkit-background-size: 100% 100%;
+     background-size: 100% 100%;
+     text-transform: uppercase;
+ }
+
+ #webunicom #fl #wrapper {
+     width: 1060px;
+     height: 100%;
+     padding: 5px;
+     margin: auto;
+     height: 40px;
+ }
+
+ #webunicom #fl #wrapper > * {
+     display: inline-block;
+     margin-right: -4px;
+ }
+
+ #webunicom #fl #logo {
+     display: inline-block;
+     width: 63px;
+     height: 50px;
+     margin-top: -5px;
+     margin-right: 30px;
+     vertical-align: top;
+ }
+
+ #webunicom #fl #logo img {
+     height: 48px;
+ }
+
+ #webunicom #fl #text {
+     position: relative;
+     margin-right: 40px;
+ }
+
+ #webunicom #fl #text:after {
+     position: absolute;
+     content: '';
+     width: 14px;
+     height: 14px;
+     right: -15px;
+     top: -7px;
+     background: url('images/site/icon.html') no-repeat;
+ }
+
+ #webunicom #fl #skype a {
+     position: relative;
+     padding-left: 30px;
+     color: #fff;
+     text-transform: none;
+ }
+
+ #webunicom #fl #skype a:before {
+     position: absolute;
+     content: '';
+     width: 18px;
+     height: 18px;
+     left: 5px;
+     background: url('images/site/skype.html') no-repeat;
+ }
+
+ #webunicom #fl #person {
+     width: 196px;
+     margin-left: 60px;
+     vertical-align: middle;
+ }
+
+ #webunicom #fl #person img {
+     float: left;
+ }
+
+ #webunicom #fl #person #name_person {
+     margin-top: 5px;
+     font-weight: 700;
+     font-size: 14px;
+ }
+
+ #webunicom #fl #person #site_person {
+     font-size: 12px;
+     text-transform: none;
+ }
+
+ #webunicom #fl #person #site_person a {
+     color: #fff;
+     text-decoration: none;
+     opacity: 0.8;
+ }
+
+ #webunicom #fl #skype a:hover {
+     opacity: 0.7;
+ }
+
+ #webunicom #fl #site_person a:hover {
+     opacity: 0.5;
+ }

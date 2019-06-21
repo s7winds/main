@@ -37,7 +37,7 @@
 
 <body>
     <!-------------------------->
-    <?php include $_SERVER['DOCUMENT_ROOT']."/main/local/menu.php"; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT']."/local/menu.php"; ?>
     <div class="box-header-slider slider-main">
         <div class="header-slider">
             <!-- th -->
