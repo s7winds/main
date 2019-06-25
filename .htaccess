@@ -4,5 +4,5 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.swinds\.ru$ [NC]
 RewriteRule ^(.*)$ http://swinds.ru/$1 [R=301,L]
 
-ErrorDocument 404 http://www.swinds.ru/error.html
+ErrorDocument 404 http://www.swinds.ru/404.php
 </IfModule>
